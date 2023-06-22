@@ -20,11 +20,11 @@ const Navbar = () => {
         });
     }, [])
     return (
-        <nav className={`fixed w-full left-0 top-0 z-[999] ${sticky ? "md:bg-white/60 text-gray-900 " : "text-white"}`}>
+        <nav className={`fixed w-full left-0 top-0 z-[999] ${sticky ? "md:bg-white/60 text-gray-900 " : "text-white"} border-b-[1px] border-b-white`}>
             <div className='flex items-center justify-between'>
                 <div className='mx-7'>
                     <h4 className='text-4xl uppercase font-bold'>
-                        freelancer<span className='text-cyan-600'>Shawon</span>
+                        PORT<span className='text-cyan-600'>FOLIO</span>
                     </h4>
                 </div>
                 <div className={` ${sticky ? "md:bg-white/0 bg-white " : "bg-white"
