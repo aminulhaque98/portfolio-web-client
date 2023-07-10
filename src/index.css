@@ -22,3 +22,7 @@ code {
     @apply w-16 bg-block bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover: bg-opacity-40 hover:transLate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
   }
 } */
+
+.aboutPics::after {
+  @apply content-[''] w-full left-0 top-0 rounded-xl rotate-12 h-full absolute bg-red-700 -z-10;
+}
